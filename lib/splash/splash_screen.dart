@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:verify_doc/compare_photos.dart';
+import 'package:servease_cap/compare_photos.dart';
 
 class splashScreen extends StatefulWidget {
   const splashScreen({super.key});
@@ -33,7 +33,7 @@ class _SplashScreenState extends State<splashScreen>
     _controller.forward();
 
     Future.delayed(const Duration(seconds: 3), () {
-      Get.to(() =>  ComparePhotosScreen(),
+      Get.to(() => ComparePhotosScreen(),
           transition: Transition.fadeIn, duration: Duration(seconds: 1));
     });
   }
