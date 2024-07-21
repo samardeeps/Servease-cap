@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:servease_cap/auth/auth_1.dart';
 import 'package:servease_cap/compare_photos.dart';
 
 class splashScreen extends StatefulWidget {
@@ -33,7 +34,7 @@ class _SplashScreenState extends State<splashScreen>
     _controller.forward();
 
     Future.delayed(const Duration(seconds: 3), () {
-      Get.to(() => ComparePhotosScreen(),
+      Get.to(() => auth(),
           transition: Transition.fadeIn, duration: Duration(seconds: 1));
     });
   }
