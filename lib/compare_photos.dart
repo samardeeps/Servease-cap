@@ -358,10 +358,11 @@ import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 import 'package:image_picker/image_picker.dart';
 import 'package:servease_cap/splash/animated-check.dart';
+import 'package:servease_cap/splash/verified.dart';
 
 Future<void> comparePhotos(
     File photo1, File photo2, Function updateResult) async {
-  final uri = Uri.parse('http://192.168.181.208:5000/compare');
+  final uri = Uri.parse('http://192.168.1.35:5000/compare');
   final request = http.MultipartRequest('POST', uri)
     ..files.add(await http.MultipartFile.fromPath('photo1', photo1.path))
     ..files.add(await http.MultipartFile.fromPath('photo2', photo2.path));
@@ -403,8 +404,7 @@ class _ComparePhotosScreenState extends State<ComparePhotosScreen> {
   void updateResult(bool? isVerified, {String? error}) {
     setState(() {
       if (isVerified != null) {
-        this.isVerified = isVerified;
-        result = isVerified ? 'Verified' : 'Not Verified';
+        Get.to(() => VerificationCompleteScreen());
       } else {
         result = error ?? 'Unknown error';
       }

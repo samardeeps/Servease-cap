@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:servease_cap/auth/auth_1.dart';
-import 'package:servease_cap/compare_photos.dart';
 
 class splashScreen extends StatefulWidget {
   const splashScreen({super.key});
