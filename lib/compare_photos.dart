@@ -362,7 +362,7 @@ import 'package:servease_cap/splash/verified.dart';
 
 Future<void> comparePhotos(
     File photo1, File photo2, Function updateResult) async {
-  final uri = Uri.parse('http://192.168.1.35:5000/compare');
+  final uri = Uri.parse('http://192.168.1.36:5000/compare');
   final request = http.MultipartRequest('POST', uri)
     ..files.add(await http.MultipartFile.fromPath('photo1', photo1.path))
     ..files.add(await http.MultipartFile.fromPath('photo2', photo2.path));
