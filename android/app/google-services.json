@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "184524377173",
+    "firebase_url": "https://demo1-2060d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "demo1-2060d",
+    "storage_bucket": "demo1-2060d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184524377173:android:ddf24c9543547090ff98dc",
+        "android_client_info": {
+          "package_name": "com.example.servease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184524377173-7negmq78g81mjj9269etc7hln6matrrp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.servease",
+            "certificate_hash": "d102513585b4203342fc05da48dfc8cdaf030370"
+          }
+        },
+        {
+          "client_id": "184524377173-r26p8hhq98hec701hdvmm5l6u1hqhb6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcr9KISeAn-5s5-ev3zZ8FI7WBOYc5ZlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184524377173-c7h1tah9590ju62jg72bdrcmii2cb314.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "184524377173-rlrj2qbh0qd9a5k14nicmctppblpmrt6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.servease"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184524377173:android:90b3eec1e30a9d31ff98dc",
+        "android_client_info": {
+          "package_name": "com.example.verify_doc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184524377173-r26p8hhq98hec701hdvmm5l6u1hqhb6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcr9KISeAn-5s5-ev3zZ8FI7WBOYc5ZlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184524377173-c7h1tah9590ju62jg72bdrcmii2cb314.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "184524377173-rlrj2qbh0qd9a5k14nicmctppblpmrt6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.servease"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

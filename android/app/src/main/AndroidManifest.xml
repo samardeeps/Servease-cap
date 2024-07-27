@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Add this line to request internet access -->
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-sdk
+    tools:overrideLibrary="io.flutter.plugins.firebase.auth"
+    android:minSdkVersion="21" />
+
 
     <application
         android:label="Servease Cap"
